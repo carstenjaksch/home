@@ -133,12 +133,12 @@ push() {
     remote="$1"
     branch="$2"
 
-    if [ $remote = "" ]
+    if [ "$remote" = "" ]
     then
         remote="origin"
     fi
 
-    if [ $branch = "" ]
+    if [ "$branch" = "" ]
     then
         branch="main"
     fi
