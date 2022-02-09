@@ -1,0 +1,5 @@
+[user]
+	name = Kris
+	email = hi@kris.re
+[init]
+	defaultBranch = main
